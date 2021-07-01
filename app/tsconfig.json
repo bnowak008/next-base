@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "~/src/*": ["src/*"],
+      "~/server/*": ["server/*"],
+      "~/shared/*": ["shared/*"],
+    },
+    "target": "es2019",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "moduleResolution": "node",
+    "strict": false,
+    "allowJs": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "exclude": [
+    "build",
+    ".next",
+    "out",
+    "next.config.js",
+    "node_modules",
+    "public",
+    "__tests__"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "src/**/*"
+  ]
+}
